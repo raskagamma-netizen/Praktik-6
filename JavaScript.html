@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengelola Nilai Mahasiswa</title>
+</head>
+<body>
+    <p>Lihat hasil melalui console (F12)</p>
+    <script>
+        const tugas = 80;
+        const uts = 70;
+        const uas = 90;
+        const nilaiAkhir = (tugas * 0.3) + (uts * 0.3) + (uas * 0.4);
+
+        let syarat;
+        if (nilaiAkhir >= 60){syarat = "Lulus";}
+        else {syarat = "Tidak Lulus";}
+        console.log("Nilai Akhir: " + nilaiAkhir);
+        console.log("Syarat: " + syarat);
+    </script>
+</body>
+</html>
